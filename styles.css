@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
+
+ body{
+    background-color:rgb(255, 254, 254);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+.contakt{
+    letter-spacing: 2px;
+    
+    margin-left: auto;} 
+
+ .photo{
+    width: 200px;
+    margin: auto;
+    display: grid;
+  width: 100px;
+}  
+
+ .avatar{
+
+ height: 650px;
+   border-top-width: 5px;
+   border-color: antiquewhite;
+   padding: 3% 55%;
+border-radius: 80px;
+border-style: solid;
+border-bottom-style: dotted;
+border-radius: 0%;
+width: 200px;
+box-shadow: 1px 1px 5px 15px rgb(70, 67, 67);
+
+
+} 
+a:hover{
+    text-decoration: underline;
+    text-decoration:overline;
+   
+} 
+ a:active{
+    color: black;
+} 
+a{
+    color: black;
+}
+
+
+.Hayk {
+
+  position: absolute;
+  padding-top: 250px;
+  padding-left: 350px;
+    text-align: center;
+   border-radius: 0px;
+   width: 200px;
+ font-size: 30px;
+
+
+  
+
+}
+    
+  
+nav { 
+    width: 960;
+    margin: 0 auto;
+    padding-left: 65%;
+}
+nav:before{
+    content:'';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: rgb(250, 246, 246);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+ul li{
+    float: left;
+}
+ul li a{
+    
+    display: block;
+    height: 0px;
+    padding: 0.50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+    color: rgb(0, 0, 0);
+
+}
+ul li a:hover{
+    background: blue;
+}
